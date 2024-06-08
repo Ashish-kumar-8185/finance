@@ -30,8 +30,8 @@ pipeline {
         stage('Image tag and push to DockerHub'){
             steps{
                 script{
-                        sh 'docker tag financebanking pradocks/bankingimage:v1'
-                        sh 'sudo docker push pradocks/bankingimage:v1'
+                        sh 'docker tag financebanking ashish8185/bankingimage:v1'
+                        sh 'sudo docker push ashish8185/bankingimage:v1'
                 }
 
             }
